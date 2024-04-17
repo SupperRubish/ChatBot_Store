@@ -1,0 +1,258 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hello",
+        "Hey",
+        "Good morning",
+        "Good evening",
+        "Good afternoon"
+      ],
+      "responses": [
+        "Hello, how can I help you?",
+        "Hi there, how can I assist you?",
+        "Hey, how may I help you?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "Bye",
+        "See you later",
+        "Goodbye",
+        "Bye for now",
+        "See you soon"
+      ],
+      "responses": [
+        "Goodbye, have a nice day!",
+        "See you later, take care.",
+        "Bye, have a good one!",
+        "I look forward to our next time!"
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": [
+        "Thanks",
+        "Thank you",
+        "Thanks a lot",
+        "Thank you very much"
+      ],
+      "responses": [
+        "You're welcome!",
+        "No problem!",
+        "My pleasure."
+      ]
+    },
+    {
+      "tag": "time",
+      "patterns": [
+        "What are your hours?",
+        "When are you open?",
+        "What hours are you available?",
+        "When can I connect with you?",
+        "When can I talk to you?",
+        "When can I find you?",
+        "When will you open?",
+        "When will you close?"
+      ],
+      "responses": [
+        "We are open from 9 am to 8 pm, Monday to Friday.",
+        "Our hours are 9 am to 8 pm during the weekdays."
+      ]
+    },
+    {
+      "tag": "paymentsCard",
+      "patterns": [
+        "Do you accept credit cards?",
+        "Can I pay with a card?",
+        "Are credit cards accepted?"
+      ],
+      "responses": [
+        "Yes, we accept all major credit cards.",
+        "We accept most credit cards, including Visa and MasterCard."
+      ]
+    },
+
+    {
+      "tag": "Ask_product",
+      "patterns": [
+        "What can I buy from you?",
+        "What products do you offer?",
+        "What can I get from you?",
+        "What items do you have for sale?",
+        "What product do you have for sale?",
+        "What thing do you have for sale?"
+      ],
+      "responses": [
+        "We have a wide selection of items including stationery such as pens and pencils, sporting goods such as basketballs and footballs, etc. You can tell me directly what products you want, thank you!"
+      ]
+    },
+
+    {
+      "tag": "product_inquiry_SportsEquipment",
+      "patterns": [
+        "Can I buy some Sport Equipments from you?",
+        "Can I buy a Sport Equipment from you?",
+        "I want to buy some Sport Equipments",
+        "Can you tell me some product information about Sport Equipment?",
+        "I want to know some information about Sport Equipment here.",
+        "Do you sell Sport Equipments?"
+      ],
+      "responses": [
+        "Sure, there is a list for Sport Equipment, what kind of Sports Equipment would you like to know?",
+        "I can provide information on Sports Equipment. What do you need to know?"
+      ]
+    },
+
+    {
+      "tag": "buy_SportsEquipment",
+      "patterns": [
+        "orange basketball",
+        "orange basketball, please",
+        "football, please",
+        "I want to buy a basketball",
+        "Can I buy a basketball from you?",
+        "Can I have a green basketball from you?",
+        "Can I buy a white football from you?",
+        "Can I have a yellow football from you?",
+        "Can I buy a badminton racket from you?",
+        "Can I have a yellow badminton racket from you?",
+        "Can I buy a exercise bike here?",
+        "Can I have a exercise bike here?",
+        "Can I buy a barbell here?",
+        "Can I have a barbell here?",
+        "I want to buy a football",
+        "I want to buy a orange badminton",
+        "I want to buy a ping-pong",
+        "Can I buy a ping-pong?",
+        "I want to buy some ping-pongs",
+        "I want to buy some basketballs",
+        "I want to buy some footballs",
+        "I want to buy a blue basketball",
+        "I want to buy a yellow basketball",
+        "Can I buy a blue basketball from you?",
+        "Do you sell basketball?",
+        "Do you sell blue basketball?"
+
+      ],
+      "responses": [
+        "Sure, this is the list of it, if you want to buy, you can choose your favorite ! If you want to buy it, you can click the button 'BUY'."
+      ]
+    },
+
+    {
+      "tag": "product_inquiry_Stationery",
+      "patterns": [
+        "Can I buy some stationery from you?",
+        "Can I buy a stationery from you?",
+        "I want to buy some stationery",
+        "Can you tell me some product information about stationery?",
+        "I want to know some information about stationery here.",
+        "Do you sell stationery?"
+      ],
+      "responses": [
+        "Sure, there is a list for stationery, what kind of stationery would you like to know?",
+        "I can provide information on stationery. What kind of stationery do you need to know?"
+      ]
+    },
+
+    {
+      "tag": "buy_Stationery",
+      "patterns": [
+        "orange pen",
+        "orange pencil, please",
+        "Pencil, please",
+        "I want to buy a Pen",
+        "Can I buy a Pencil from you?",
+        "Can I have a green eraser from you?",
+        "Can I buy a black ink from you?",
+        "Can I have a yellow pencil from you?",
+        "Can I buy a ruler from you?",
+        "Can I have a yellow ruler from you?",
+        "Can I buy a pencil sharpener here?",
+        "Can I have a compass here?",
+        "Can I buy a calculator here?",
+        "Can I have a calculator here?",
+        "I want to buy a compass",
+        "I want to buy a orange pencil",
+        "I want to buy a pen",
+        "Can I buy a marker?",
+        "I want to buy some ping-pongs",
+        "I want to buy some basketballs",
+        "I want to buy some markers",
+        "I want to buy a blue ink",
+        "Can I buy a blue calculator from you?",
+        "Do you sell calculator?",
+        "Do you sell blue pen?"
+
+      ],
+      "responses": [
+        "Sure, this is the list of it, if you want to buy, you can choose your favorite ! If you want to buy it, you can click the button 'BUY'."
+      ]
+    },
+
+    {
+      "tag": "order_status",
+      "patterns": [
+        "Where is my order?",
+        "Can I get an update on my order status?",
+        "How do I track my order?",
+        "Can I check my order?",
+        "Can I check the status of my order?",
+        "I want to check my order."
+      ],
+      "responses": [
+        "Can you provide your order ID or for me to check?",
+        "I'm checking your order status right now. Can I have your order number?",
+        "To track your order, please enter your order username."
+      ]
+    },
+
+
+    {
+      "tag": "payment_options",
+      "patterns": [
+        "What payment methods do you accept?",
+        "Can I pay using PayPal?",
+        "Do you accept credit cards?"
+      ],
+      "responses": [
+        "We accept various payment methods including credit cards, PayPal, and bank transfers.",
+        "Well, PayPal is accepted here along with other major payment methods.",
+        "We accept all major credit cards, PayPal, and other payment options."
+      ]
+    },
+    {
+      "tag": "return_policy",
+      "patterns": [
+        "What's your return policy?",
+        "Can I return a product if I don't like it?",
+        "How do I return something I bought?"
+      ],
+      "responses": [
+        "Our return policy allows you to return products within 30 days of receiving them.",
+        "Yes, if you are not satisfied with your purchase, you can return it within the return period.",
+        "To return a product, please follow the return process outlined on our website or contact customer support."
+      ]
+    },
+    {
+      "tag": "shipping_info",
+      "patterns": [
+        "How long does shipping take?",
+        "What shipping options do I have?",
+        "Do you offer international shipping?",
+        "How long will it take for me to receive the goods?",
+        "How long do I need to wait after paying?"
+      ],
+      "responses": [
+        "Shipping times vary by destination but typically take between 3-5 business days.",
+        "We offer standard, expedited, and international shipping options.",
+        "We offer international shipping. Shipping times and costs vary depending on the destination."
+      ]
+    }
+
+  ]
+}
